@@ -1,3 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
 h1{
     color: blueviolet;
+}.hero{
+    background-image: url(../images/concept\ cover.avif);
+    background-position: center;
+    height: 60vh;
+    background-size: cover;
+}.hero h1{
+    font-size: 50px;
+    color: aqua;
+    padding-top: 10px;
+    font-family: cursive;
+    text-align: center;
+    font-weight: 900;
+    word: spacing 40px;
+    
+} .hero2{
+    width: 80%;
+    /* margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px; */
+    margin: 50px auto;
+    background-color: rgba(101, 165, 165, 0.992);
+    padding: 20px;
+    border-width: 10px;
+    border-color: blueviolet;
+    border-style: groove;
+}.hero2 h2{
+    text-align: center; 
+    font-size: 48px; border : 4px groove yellow;
 }
